@@ -56,6 +56,17 @@ You can see the theme screenshots  [here](https://github.com/revans/bash-it/wiki
 
 Alternatively, you can preview the themes in your own shell using `BASH_PREVIEW=true reload`
 
+## Uninstalling
+
+To uninstall Bash it, run the `uninstall.sh` script found in the `$BASH_IT` directory:
+
+```
+cd $BASH_IT
+./uninstall.sh
+```
+
+This will restore your previous Bash profile. After the uninstall script finishes, remove the Bash it directory from your machine (`rm -rf $BASH_IT`) and start a new shell.
+
 ## Misc
 
 ### Bash Profile Aliases
