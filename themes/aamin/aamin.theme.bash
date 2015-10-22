@@ -7,7 +7,7 @@ SCM_THEME_PROMPT_CLEAN=" ${green}✓"
 
 is_rvm_loaded() {
   if hash rvm 2>/dev/null; then
-    echo "[$(~/.rvm/bin/rvm-prompt)] "
+    echo "${cyan}(${red}$(~/.rvm/bin/rvm-prompt)${cyan})${reset_color} "
 	fi
 }
 
